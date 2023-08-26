@@ -16,3 +16,8 @@ h1 {
     align-items: flex-start;
     gap: 16px;
 }
+
+.button {
+    width: 70px;
+    height: 40px;
+}
