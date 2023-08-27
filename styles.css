@@ -16,7 +16,7 @@ h1 {
     align-items: flex-start;*/
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     padding-left: 1px;
     padding-right: 1px;
 }
@@ -35,8 +35,10 @@ h1 {
 }
 
 #color {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: none;
+    display: flex;
+    justify-content: center;
 }
