@@ -1,4 +1,4 @@
-let button = document.getElementsByClassName('btn')[0]
+let button = document.getElementsByClassName('by')[0]
 // let colors = ['Red','Green','Blue']
 
 // console.log(button)
