@@ -18,8 +18,10 @@ h1 {
 }
 
 .button {
-    width: 100px;
-    height: 50px;
+    /* width: 100px */
+    width: 80px;
+    /* height: 50px; */
+    height: 40px;
     border-radius: 30px;
     /* padding: 15px 32px; */
     text-align: center;
