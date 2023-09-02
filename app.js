@@ -3,11 +3,12 @@ let button = document.getElementsByClassName('btn')[0]
 
 // console.log(button)
 
-button.addEventListener('click', () => {
+button.addEventListener('click', (e) => {
     // let r = Math.floor(Math.random() * 256)
     // let g = Math.floor(Math.random() * 256)
     // let b = Math.floor(Math.random() * 256)
     // document.body.style.backgroundColor = colors[Math.floor(Math.random() *colors.length)]
+    e.preventDefault()
     let res = colors()
     document.body.style.backgroundColor = res
     console.log(res)
