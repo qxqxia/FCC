@@ -8,7 +8,7 @@ button.addEventListener('click', (e) => {
     // let g = Math.floor(Math.random() * 256)
     // let b = Math.floor(Math.random() * 256)
     // document.body.style.backgroundColor = colors[Math.floor(Math.random() *colors.length)]
-    e.preventDefault()
+    e.preventDefault() //button screen
     let res = colors()
     document.body.style.backgroundColor = res
     console.log(res)
